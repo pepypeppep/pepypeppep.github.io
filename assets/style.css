@@ -31,10 +31,11 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url("banner.jpg");
   background-size: cover;
   color: white;
   text-align: center;
+  height: 100vh;
 }
 
 .top-wrapper h1 {
@@ -56,6 +57,19 @@ a {
 
 .btn-wrapper p {
   margin: 10px 0;
+}
+
+.layer {
+  background-color: rgba(52, 52, 52, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.banner-title {
+  margin-top: 15%;
 }
 
 .signup {
@@ -91,7 +105,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: #eb9532;
   position :fixed;
   top: 0;
   z-index: 10;
@@ -112,6 +126,7 @@ header {
 }
 
 .header-right a {
+  font-weight: bold;
   line-height: 65px;
   padding: 0 25px;
   color: white;
