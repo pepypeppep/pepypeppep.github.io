@@ -164,6 +164,8 @@ header {
   margin-top: 15px;
   font-size: 15px;
   color: #b3aeb5;
+  height: 90px;
+  overflow: hidden;
 }
 
 .heading h3 {
@@ -210,5 +212,12 @@ span.menu-icon {
   font-size: 25px;
   padding: 21px 0;
   display: none;
+}
+
+.round-image{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
 }
 
